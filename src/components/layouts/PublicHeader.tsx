@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ItemNavHeader from "./PublicItemNavHeader";
 import LogoImage from "../../assets/logo.svg";
 
@@ -20,13 +21,14 @@ const PublicHeader: React.FC = () => {
           </ul>
         </nav>
 
-        <button
-          type="button"
-          className="py-2 px-4 flex justify-center items-center bg-red-600 hover:bg-red-700 focus:ring-red-500 focus:ring-offset-red-200 text-white transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg mx-auto"
-        >
-          {/* <button className="bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-full"> */}
-          Masuk
-        </button>
+        <Link to="/login">
+          <button
+            type="button"
+            className="py-2 px-4 flex justify-center items-center bg-red-600 hover:bg-red-700 focus:ring-red-500 focus:ring-offset-red-200 text-white transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg mx-auto"
+          >
+            Masuk
+          </button>
+        </Link>
       </div>
     </header>
   );
