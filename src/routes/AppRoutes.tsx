@@ -8,7 +8,7 @@ const NotFound = lazy(() => import("../pages/NotFound"));
 
 const AppRoutes: React.FC = () => {
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <Suspense fallback={<div>Loading...</div>}>
         <PageTitleUpdater />
         <Routes>
