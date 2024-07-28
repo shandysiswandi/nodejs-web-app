@@ -7,12 +7,12 @@ const PublicHeader: React.FC = () => {
   return (
     <header className="bg-white text-gray-800 p-4 shadow mb-4">
       <div className="container mx-auto flex items-center justify-between">
-        <div className="flex items-center">
+        <Link to="/" className="flex items-center">
           <img src={LogoImage} alt="icon-home" className="h-10" />
-        </div>
+        </Link>
 
         <nav className="flex-1">
-          <ul className="flex justify-center space-x-8 text-gray-700 hover:text-gray-900 font-medium">
+          <ul className="flex justify-center space-x-8 font-medium">
             <ItemNavHeader to="/service" title="Layanan" />
             <ItemNavHeader to="/portfolio" title="Portfolio" />
             <ItemNavHeader to="/product" title="Produk" />

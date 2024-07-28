@@ -8,3 +8,8 @@
   @apply font-sans; /* Fallback to sans-serif */
   font-family: "Poppins", sans-serif;
 }
+
+/* 
+primary: red-600
+secondary: red-700
+*/

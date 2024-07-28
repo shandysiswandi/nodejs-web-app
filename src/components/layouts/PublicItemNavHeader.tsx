@@ -7,7 +7,7 @@ export interface ItemNavHeaderProps {
 }
 
 const ItemNavHeader: React.FC<ItemNavHeaderProps> = ({ title, to }) => (
-  <li>
+  <li className="text-gray-600 hover:text-red-700">
     <Link to={to}>{title}</Link>
   </li>
 );

@@ -7,7 +7,7 @@ const NotFound: React.FC = () => {
   return (
     <PublicLayout>
       <div className="flex items-center justify-center mt-16 bg-white">
-        <div className="text-center text-gray-700">
+        <div className="text-center text-gray-600">
           <img src={NotFoundImage} alt="Not Found" className="mx-auto mb-4" />
           <h1 className="text-4xl font-bold mb-4">Oops, halaman tidak ada!</h1>
           <p className="mb-4">Halaman yang Anda tuju tidak ditemukan</p>

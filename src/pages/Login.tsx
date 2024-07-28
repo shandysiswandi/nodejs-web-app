@@ -22,7 +22,7 @@ const Login: React.FC = () => {
             Belum punya akun?{" "}
             <Link
               to="/register"
-              className="text-blue-500 font-semibold hover:text-blue-700"
+              className="text-red-600 font-semibold hover:text-red-700"
             >
               Daftar
             </Link>
